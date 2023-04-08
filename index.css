@@ -1,0 +1,62 @@
+
+{
+    font-size: medium;
+    font-family:cursive;
+    color: dimgrey;
+
+}
+.profile
+{
+   border-radius: 50%; 
+
+}
+.navbar
+{
+    list-style-type: none;
+    margin:0;
+    padding:0px;
+    overflow: hidden;
+    background-color: #6bd4ef;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 25%;
+  height: 50%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+li a
+{
+    float: right;
+    display: block;
+    color: floralwhite;
+    font-size: 25px;
+    padding:14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+}
+.active
+{
+    background-color: beige;
+    color:red;
+}
+a:hover
+{
+    color: blue;
+    background-color: #6bc9ef;
+}
