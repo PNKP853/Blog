@@ -7,12 +7,27 @@
     margin-right: 1%;
 
 }
-
+.pattern1 {
+    background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+    background-size: 8px 8px;
+    background-color: #a3e4f5;
+}
 .pattern2
 {
     background-image:url(icecrystal.jpg);
 background-repeat:repeat;
+}
+.profilebg{
+  --stripe: #a3e4f5;
+  --bg: #d1f2fa;
 
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+}
 body
 {
     background-color:   #d1f2fa;
