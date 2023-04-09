@@ -1,4 +1,24 @@
+.text
+{
+    font-size: medium;
+    font-family: lucida bright;
+    color: black;
+    margin-left: 2%;
+    margin-right: 1%;
 
+}
+
+.pattern2
+{
+    background-image:url(pics/icecrystal.jpg);
+background-repeat:repeat;
+
+body
+{
+    background-color:   #d1f2fa;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 .profile
 {
    border-radius: 50%; 
@@ -17,6 +37,10 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 30%;
+  
+}
+div.galleryspace{
+    width: 10%;
 }
 
 div.gallery:hover {
@@ -53,4 +77,7 @@ a:hover
 {
     color: blue;
     background-color: #6bc9ef;
+}
+a[href^='mailto']::before {
+    content: '📧 ';
 }
